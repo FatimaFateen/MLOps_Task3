@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/farrahsaaif/docker-jenkins-project.git'
+                git 'https://github.com/FatimaFateen/MLOps_Task3.git'
             }
         }
 
